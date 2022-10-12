@@ -8,8 +8,8 @@ Skills:
 
 Certifications:
 - AWS Cloud Practitioner
-- Linux Foundation LFCS
 - Microsoft Azure AZ-900
+- Linux Foundation LFCS
 - Linux Comptia+
 - LPI LPIC-1
 
