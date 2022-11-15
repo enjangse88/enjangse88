@@ -1,8 +1,9 @@
-### EnjangSe
+# EnjangSe
+**`Infrastructure Engineer (SysAdmin/DevOps/Linux)`**
 - Level : 1 - Job   : Infrastructure Engineer
 - HP    : 3400 - MP    : 700 
 - email : enjang.setiawan88@gmail.com
-
+---
 Skills: 
 - Linux   - Bash Scripting - Python 
 - Docker Container  - Ansible - AWS - Terraform
