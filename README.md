@@ -15,6 +15,31 @@ Certifications:
 - Linux Comptia+
 - LPI LPIC-1
 
+module "tools" {
+  tags = {
+    CloudProviders = "AWS - GCP "
+    IaaC           = "Terraform, Ansible"
+    Workflows      = "GitActions, Gitlab, GitOps"
+    Containers     = "Docker , Kubernetes"
+    S.O            = "Debian, CentOS, WindowsServer"
+    Languajes      = "Python , Bash"
+    Networking     = "Cisco, HP, Ubiquiti, Fortinet, VMware"
+     
+  }
+
+```
+```mermaid
+flowchart LR
+    Plan --> Code
+    Code  --> Build
+    Build --> Test
+    Test --> Deploy
+    Deploy --> Operate
+    Operate --> Monitor
+    Monitor --> Code
+    
+    
+```
 <!--
 **enjangse88/enjangse88** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
