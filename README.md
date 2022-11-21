@@ -14,16 +14,16 @@ Certifications:
 - Linux Foundation LFCS
 - Linux Comptia+
 - LPI LPIC-1
-
+```
 module "tools" {
   tags = {
-    CloudProviders = "AWS - GCP "
+    Infrastructure = "VMware - AWS - GCP "
     IaaC           = "Terraform, Ansible"
-    Workflows      = "GitActions, Gitlab, GitOps"
+    Workflows      = "GitActions, Jenkins"
     Containers     = "Docker , Kubernetes"
-    S.O            = "Debian, CentOS, WindowsServer"
-    Languajes      = "Python , Bash"
-    Networking     = "Cisco, HP, Ubiquiti, Fortinet, VMware"
+    S.O            = "Debian, CentOS, Ubuntu"
+    Languages      = "Python , Bash"
+    Networking     = "Cisco, Juniper"
      
   }
 
@@ -32,7 +32,11 @@ module "tools" {
 flowchart LR
     Plan --> Code
     Code  --> Build
+    Build --> Security
+    Security --> SAST 
+    Security --> DAST
     Build --> Test
+    Test --> Unit 
     Test --> Deploy
     Deploy --> Operate
     Operate --> Monitor
@@ -55,4 +59,4 @@ on ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-- I am currently learning Devsecops, Github Action,kubernetes.
+- I am currently learning DevSecOps, Github Action,Kubernetes.
