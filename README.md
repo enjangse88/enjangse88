@@ -21,7 +21,7 @@ module "tools" {
     IaaC           = "Terraform, Ansible"
     Workflows      = "GitActions, Jenkins"
     Containers     = "Docker , Kubernetes"
-    S.O            = "Debian, CentOS, Ubuntu"
+    Linuk Distro   = "Debian, CentOS, Ubuntu"
     Languages      = "Python , Bash"
     Networking     = "Cisco, Juniper"
      
