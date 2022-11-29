@@ -33,9 +33,10 @@ flowchart LR
     Plan --> Code
     Code  --> Build
     Build --> Test
+    Test --> Deploy
     Deploy --> Operate
     Operate --> Monitor
-    Monitor --> Code
+    
     
     
 ```
