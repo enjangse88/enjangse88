@@ -32,12 +32,7 @@ module "tools" {
 flowchart LR
     Plan --> Code
     Code  --> Build
-    Build --> Security
-    Security --> SAST 
-    Security --> DAST
     Build --> Test
-    Test --> Unit 
-    Test --> Deploy
     Deploy --> Operate
     Operate --> Monitor
     Monitor --> Code
