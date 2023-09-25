@@ -8,17 +8,20 @@ Skills:
 - Docker Container  - Ansible - AWS - Terraform
 
 Certifications:
+- AWS Solution Architect Associate
 - AWS Cloud Practitioner
 - Microsoft Azure AZ-900
+- Alibaba Cloud Associate
 - Linux Foundation LFCS
 - Linux Comptia+
 - LPI LPIC-1
+- Nutanix NPP 
 ```
 module "tools" {
   tags = {
     Infrastructure = "VMware - AWS - GCP "
     IaaC           = "Terraform, Ansible"
-    Workflows      = "GitActions, Jenkins"
+    Workflows      = "GitHub Actions, Jenkins"
     Containers     = "Docker , Kubernetes"
     Linuk Distro   = "Debian, CentOS, Ubuntu"
     Languages      = "Python , Bash"
