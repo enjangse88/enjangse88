@@ -2,11 +2,7 @@
 **`Cloud Infrastructure Engineer (SysAdmin/DevOps/Cloud/Linux)`**
 - Level : 1 - Job   : Cloud Infrastructure Engineer
 - email : enjang.setiawan88@gmail.com
----
-Skills: 
-- Linux   - Bash Scripting - Python 
-- Docker Container  - Ansible - AWS - Terraform
-
+  
 Certifications:
 - AWS Solution Architect Associate
 - AWS Cloud Practitioner
@@ -29,18 +25,6 @@ module "tools" {
      
   }
 
-```
-```mermaid
-flowchart LR
-    Plan --> Code
-    Code  --> Build
-    Build --> Test
-    Test --> Deploy
-    Deploy --> Operate
-    Operate --> Monitor
-    
-    
-    
 ```
 <!--
 **enjangse88/enjangse88** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
