@@ -4,14 +4,10 @@
 - email : enjang.setiawan88@gmail.com
   
 Certifications:
-- AWS Solution Architect Associate
-- AWS Cloud Practitioner
-- Microsoft Azure AZ-900
-- Alibaba Cloud Associate
-- Linux Foundation LFCS
-- Linux Comptia+
-- LPI LPIC-1
-- Nutanix NPP 
+- [Cloud] - AWS Solution Architect Associate - AWS Cloud Practitioner - Microsoft Azure AZ-900 - Alibaba Cloud Associate
+- [Infra] - CCNA Network Academy - Nutanix NPP
+- [Linux] -  Linux Foundation LFCS - LPI LPIC-1 - Comptia Linux+
+
 ```
 module "tools" {
   tags = {
