@@ -8,6 +8,7 @@ Certifications:
 - [Infra] - CCNA Network Academy - Nutanix NPP
 - [Linux] -  Linux Foundation LFCS - LPI LPIC-1 - Comptia Linux+
 
+<!--
 ```
 module "tools" {
   tags = {
@@ -22,6 +23,7 @@ module "tools" {
   }
 
 ```
+-->
 <!--
 **enjangse88/enjangse88** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
